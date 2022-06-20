@@ -37,11 +37,11 @@ exports.config = {
 
         //'./test/resources/features/**/*.feature',  
         //'./test/resources/features/Admin/*.feature',   
-        //'./test/resources/features/CatalogPage.feature', 
-        //'./test/resources/features/AddToCart.feature',
-        './test/resources/features/EmailValidation.feature',
-        //'./test/resources/features/EmailAlreadyUsedOnCheckout.feature',
-        //'./test/resources/features/CompanyContact.feature',
+        './test/resources/features/CatalogPage.feature', 
+        './test/resources/features/AddToCart.feature',
+        //'./test/resources/features/PasswordMatch.feature',
+        './test/resources/features/EmailAlreadyUsedOnCheckout.feature',
+        './test/resources/features/CompanyContact.feature',
         //'./test/resources/features/Login.feature',
     ],
     // Patterns to exclude.
@@ -142,6 +142,7 @@ exports.config = {
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
 	baseUrl: 'https://infodekoor-uat.gammatest.net/',
+    //baseUrl: 'https://opencart.gammatest.net/',
     //baseUrl: 'http://mdm.7p-group.com/mdm5qatest/',    
     //
     // Default timeout for all waitFor* commands.
